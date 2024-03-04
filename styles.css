@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding:  0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rbg(85, 85, 85);
+}
+
+/* Transition */
+
+a, .btn{
+    /* ease all transitions */
+    transition: all 300ms ease;
+}
+
+/* DESKTOP - NAV BAR */
+/* change style to flex-box */
+nav, .nav-links{
+    display: flex;
+}
+
+nav {
+    justify-content: space-around; /*for horizontal*/
+    align-items: center;    /* for vertical */
+    height: 15vh;
+}
+
+.nav-links{
+    list-style: none; 
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: grey;
+    transition: text-decoration 0ms ease;
+    
+}
+
+.desktop-nav .logo{
+    font-size: 2rem;
+}
+
+.desktop-nav .logo:hover{
+    cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+.hamburger-nav{
+    display: none;
+}
+
+/* to contain the absolute elements inside */
+.hamburger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    /* space-between will now apply in column direction */
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icon span{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.hamburger-links{
+    position: absolute;
+    /* 100% of parent / ham-menu away */
+    top: 100%;
+    right: 0; 
+    background-color: white; /* as wide as necessary to fit contents */
+    width: fit-content; 
+
+    /* to hide links initially // could use display:none as well */
+    max-height: 0; 
+    /* to hide anything that exceeds max-height */
+    overflow: hidden; 
+
+    transition: all 0.3 ease-in-out;
+}
