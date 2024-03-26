@@ -360,12 +360,15 @@ input {
 }
 
 .input__container {
+    
     position: relative;
     margin-top: .1rem;
     margin-bottom: 1.9rem;
 }
 
 .input {
+   
+    
     width: 100%;
     border: 2px solid var(--text-color);
     background-color: transparent;
@@ -380,13 +383,16 @@ input {
 }
 
 textarea.input {
+    
     padding: .8rem 1.2rem;
     min-height: 140px;
     border-radius: .50rem;
     resize: none;
+    
 }
 
 .input__container label {
+    
     position: absolute;
     top: 50%;
     left: 1rem;
@@ -398,6 +404,7 @@ textarea.input {
     pointer-events: none;
     z-index: 15;
     transition: .5s;
+    
 }
 
 .input__container.textarea label {
@@ -406,6 +413,7 @@ textarea.input {
 }
 
 .input__container span {
+    
     position: absolute;
     top: 0;
     left: 25px;
@@ -415,6 +423,7 @@ textarea.input {
     padding: 0 .4rem;
     pointer-events: none;
     z-index: var(--z-fixed);
+    
 }
 
 .input__container span::before,
@@ -424,7 +433,7 @@ textarea.input {
     width: 10%;
     height: 5px;
     opacity: 0;
-    background-color: var(--body-color);
+    background-color: #F4F4F4;
     top: 50%;
     transform: translateY(-50%);
     transition: .3s;
