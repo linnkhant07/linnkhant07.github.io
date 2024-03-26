@@ -66,6 +66,10 @@ a:hover{
 
 /* HAMBURGER MENU */
 
+.hamburger-nav .logo{
+    font-size: 1.5rem;
+}
+
 .hamburger-nav{
     display: none;
 }
@@ -147,6 +151,7 @@ a:hover{
     transform: 1;
     transform: none;
 }
+
 
 
 
