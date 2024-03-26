@@ -114,7 +114,7 @@ input {
     align-items: center;
     column-gap: .5rem;
     background-color: var(--skin-color);
-    color: var(--title-color);
+    color: white;
     padding: .75rem 1.4rem;
     border-radius: .25rem;
     font-weight: var(--font-medium);
