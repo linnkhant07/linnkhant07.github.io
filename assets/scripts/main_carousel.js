@@ -2,8 +2,6 @@ let nextButton = document.getElementById('next');
 let prevButton = document.getElementById('prev');
 let carousel = document.querySelector('.carousel');
 let listHTML = document.querySelector('.carousel .list');
-let seeMoreButtons = document.querySelectorAll('.seeMore');
-let backButton = document.getElementById('back');
 
 nextButton.onclick = function(){
     showSlider('next');
@@ -30,13 +28,4 @@ const showSlider = (type) => {
         nextButton.style.pointerEvents = 'auto';
         prevButton.style.pointerEvents = 'auto';
     }, 2000)
-}
-seeMoreButtons.forEach((button) => {
-    button.onclick = function(){
-        carousel.classList.remove('next', 'prev');
-        carousel.classList.add('showDetail');
-    }
-});
-backButton.onclick = function(){
-    carousel.classList.remove('showDetail');
 }
