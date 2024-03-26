@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link rel="stylesheet" href="assets/styles/mediaqueries.css">
+    <!--========== UNICONS ==========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!--========== FOR MAIN CAROUSEL ==========-->
     <link rel="stylesheet" href="assets/styles/main_carousel.css">
     <!--========== FOR PROJECTS ==========-->
@@ -131,20 +133,20 @@
 
     <!--===== Work =====-->
     <section class="work section" id="work">
-        <h2 data-heading="My Portfolio" class="section__title">Recent Works</h2>
+        <h2 data-heading="My Portfolio" class="section__title">RECENT PROJECTS</h2>
 
         <div class="work__filters">
             <span class="work__item active-work" data-filter="all">All</span>
-            <span class="work__item" data-filter=".web">Web</span>
-            <span class="work__item" data-filter=".app">App</span>
-            <span class="work__item" data-filter=".design">Design</span>
+            <span class="work__item" data-filter=".web">Web Development</span>
+            <span class="work__item" data-filter=".app">C++</span>
+            <span class="work__item" data-filter=".design">x86</span>
         </div>
 
         <div class="work__container container grid">
             <div class="work__card mix web">
                 <img src="assets/img/work-1.webp" alt="" class="work__img">
                 <h3 class="work__title">Web Design</h3>
-                <span class="work__button">Demo
+                <span class="work__button" >Demo
                     <i class="uil uil-arrow-right work__button-icon"></i>
                 </span>
                 <div class="portfolio__item-details">
@@ -257,11 +259,37 @@
         </div>
     </section>
     
+    <!-- Portfolio Popup -->
+    <div class="portfolio__popup">
+        <div class="portfolio__popup-inner">
+            <div class="portfolio__popup-content grid">
+                <span class="portfolio__popup-close"><i class="uil uil-times"></i></span>
+                <div class="pp__thumbnail">
+                    <img src="assets/img/work-2.webp" alt="" class="portfolio__popup-img">
+                </div>
+                <div class="portfolio__popup-info">
+                    <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
+                    <div class="portfolio__popup-body">
+                        <h3 class="details__title">App for tecnology & services</h3>
+                        <p class="details__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Earum impedit voluptatibus minima.</p>
+                        <ul class="details__info">
+                            <li>Created - <span>4 dec 2020</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="#">www.domain.com</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--========== FORMATTING ==========-->
     <script src="assets/scripts/script.js"></script>
     <!--========== FOR MAIN CAROUSEL ==========-->
     <script src="assets/scripts/main_carousel.js"></script>
+     <!--========== MIX IT UP ==========-->
     <script src="assets/scripts/mixitup.min.js"></script>
     <!--========== FOR PROJECTS ==========-->
     <script src="assets/scripts/port_folio.js"></script>
