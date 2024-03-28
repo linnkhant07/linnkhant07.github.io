@@ -280,6 +280,21 @@ input {
     margin-bottom: var(--mb-2);
 }
 
+.details__description ul {
+
+    list-style-type: disc; /* Set the list style type to default bullet points */
+}
+.details__description li {
+
+    text-decoration: underline; /* Set the list style type to default bullet points */
+}
+
+.details__list{
+    list-style-type: disc;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-2);
+}
+
 .details__info li {
     margin-bottom: var(--mb-0-75);
     text-transform: capitalize;
@@ -295,8 +310,7 @@ input {
 }
 
 .details__info li a {
-    text-transform: lowercase;
-    color: var(--skin-color);
+    color: blue;
 }
 
 
