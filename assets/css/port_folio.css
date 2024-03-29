@@ -313,6 +313,11 @@ input {
     color: blue;
 }
 
+.work__img {
+    width: 290px;
+    height: 170px;
+}
+
 
 /*===== Contact Section =====*/
 .contact__container {
