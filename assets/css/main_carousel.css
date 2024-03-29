@@ -60,7 +60,7 @@ header nav a{
     position: absolute;
     width: 1140px;
     max-width: 90%;
-    height: 80%;
+    height: 90%;
     left: 50%;
     transform: translateX(-50%);
 }
