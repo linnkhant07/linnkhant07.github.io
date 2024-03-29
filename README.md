@@ -22,8 +22,8 @@ Welcome to my portfolio website! This site serves as a showcase of my work, skil
 
 ## Setup
 If you want to run this website locally or customize it for your own use, follow these steps:
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd <project-directory>`
+1. Clone the repository.
+2. Navigate to the project directory.
 3. Open the `index.html` file in your preferred text editor or browser.
 
 ## License
