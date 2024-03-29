@@ -33,7 +33,7 @@ nav, .nav-links{
 nav {
     justify-content: space-around; /*for horizontal*/
     align-items: center;    /* for vertical */
-    height: 15vh;
+    height: 10vh;
 }
 
 .nav-links{
