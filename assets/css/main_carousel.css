@@ -54,8 +54,10 @@ header nav a{
     position: relative;
     height: 90vh;
     overflow: hidden;
-    margin-top: -70px;
+    margin-top: 1px;
+    z-index: -1;
 }
+
 .carousel .list{
     position: absolute;
     width: 1140px;
