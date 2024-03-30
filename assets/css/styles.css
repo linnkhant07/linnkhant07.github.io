@@ -28,18 +28,20 @@ a, .btn{
 /* change style to flex-box */
 nav, .nav-links{
     display: flex;
+    
 }
 
 nav {
     justify-content: space-around; /*for horizontal*/
     align-items: center;    /* for vertical */
-    height: 10vh;
+    height: 8vh;
 }
 
 .nav-links{
     list-style: none; 
     gap: 2rem;
     font-size: 1.5rem;
+    
 }
 
 a{
@@ -102,7 +104,7 @@ a:hover{
     /* 100% of parent / ham-menu away */
     top: 100%;
     right: 0; 
-    background-color: white; /* as wide as necessary to fit contents */
+    background-color: #F4F4F4; /* as wide as necessary to fit contents */
     width: fit-content; 
 
     /* to hide links initially // could use display:none as well */
@@ -111,6 +113,7 @@ a:hover{
     overflow: hidden; 
 
     transition: all 0.3 ease-in-out;
+    z-index: 100;
 }
 
 .hamburger-links a{
