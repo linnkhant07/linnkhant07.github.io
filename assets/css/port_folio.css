@@ -545,7 +545,7 @@ textarea.input {
     position: fixed;
     right: 1rem;
     bottom: -30%;
-    background: var(--skin-color);
+    background: yellow;
     border-radius: .4rem;
     display: inline-flex;
     padding: .25rem;
@@ -569,6 +569,13 @@ textarea.input {
 }
 
 /* Show Scroll Up */
+
+#resume{
+    background-color: black;
+    color: #F4F4F4;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
 
 
 /*========== BREAKPOINTS ==========*/
