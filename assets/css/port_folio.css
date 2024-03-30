@@ -591,6 +591,7 @@ textarea.input {
     .carousel .list .item img{
         width: 40%;
         height: 40%;
+        border-radius: 0px;
     }
 
     .about__container {
@@ -612,6 +613,7 @@ textarea.input {
     .carousel .list .item img{
         width: 35%;
         height: 40%;
+        border-radius: 0px;
     }
     
     .container {
@@ -677,6 +679,7 @@ textarea.input {
 
     .about__img {
         width: 350px;
+        border-radius: 0px;
     }
 
     .about__data {
