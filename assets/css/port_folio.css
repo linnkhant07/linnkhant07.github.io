@@ -581,6 +581,11 @@ textarea.input {
 }
 
 @media screen and (max-width: 1216px) {
+    .carousel .list .item img{
+        width: 40%;
+        height: 40%;
+    }
+
     .about__container {
         column-gap: 2.5rem;
     }
@@ -596,6 +601,12 @@ textarea.input {
 }
 
 @media screen and (max-width: 1024px) {
+
+    .carousel .list .item img{
+        width: 35%;
+        height: 40%;
+    }
+    
     .container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
@@ -725,6 +736,16 @@ textarea.input {
 
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
+    
+    .carousel .list .item .introduce .des{
+        visibility: hidden;
+        
+    }
+
+    .carousel .list .item .introduce .des .min-text{
+        visibility: visible;
+    }
+
     .about__img {
         width: 250px;
     }
@@ -804,7 +825,6 @@ textarea.input {
 
 @media screen and (max-width: 576px) {
 
-    
 
     .nav__toggle {
         right: initial;
