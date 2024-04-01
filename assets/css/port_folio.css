@@ -749,10 +749,9 @@ textarea.input {
     
     .carousel .list .item .introduce .des{
         visibility: hidden;
-        
     }
 
-    .carousel .list .item .introduce .des .min-text{
+    .carousel .list .item .introduce .des .mid-text{
         visibility: visible;
     }
 
@@ -916,6 +915,17 @@ textarea.input {
     .footer__links {
         justify-self: flex-start;
     }
+}
+
+@media screen and (max-width: 500px) {
+
+    .carousel .list .item .introduce .des{
+        display: none;
+    }
+    .carousel .list .item .introduce .des-small{
+        display: block;
+    }
+        
 }
 
 /* For Small Devices */
